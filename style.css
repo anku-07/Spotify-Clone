@@ -28,6 +28,7 @@ body{
     overflow: auto;
     /* padding-left: 0.25rem; */
     margin-left: 0.25rem;
+    padding: 0 1.5rem 0 1.5rem;
 }
 .music-player{
     background-color: black;
@@ -137,6 +138,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 .sticky-nav-icons{
     margin-left: 0.75rem;
@@ -154,4 +156,95 @@ a{
     .hide{
         display: none;
     }
+}
+
+/* Cards */
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.85rem;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+/* Cards End */
+
+/* Music player */
+
+.music-player{
+    display: flex;
+}
+.albams{
+    display: flex;
+    /* background-color: aqua; */
+    width: 25%;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 1rem 0.25rem 1rem 0.25rem;
+}
+.player{
+    background-color: blue;
+    width: 50%;
+}
+.control{
+    background-color: brown;
+    width: 25%;
+}
+
+.albams img{
+    /* padding: 0.25rem; */
+    border-radius: 10px; 
+    width: 56px;
+    height:56px;
+}
+.song-title{
+    margin-top:-4.5rem;
+    margin-left:1.3rem;
+    line-height:10px;
+    height:0.8rem;
+    /* padding: 1rem; */
+
+}
+.song-title .song {
+     padding-top: 0.75rem;
+     font-size: 0.85rem;
+     font-weight: 500;
+}
+.song-title .artist{
+    /* padding-bottom: 1rem; */
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+.love{
+    font-size: 1rem;
+    /* height: 2rem;
+    width: 2rem; */
+    padding-left: 1.5rem;
 }
