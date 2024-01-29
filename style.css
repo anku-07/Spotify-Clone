@@ -200,6 +200,8 @@ a{
 
 .music-player{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .albams{
     display: flex;
@@ -210,7 +212,7 @@ a{
     padding: 1rem 0.25rem 1rem 0.25rem;
 }
 .player{
-    background-color: blue;
+
     width: 50%;
 }
 .control{
@@ -247,4 +249,21 @@ a{
     /* height: 2rem;
     width: 2rem; */
     padding-left: 1.5rem;
+}
+
+/* Player Control */
+
+.player-control-icon{
+    height: 1rem;
+    margin-left: 2rem;
+    opacity: 0.7;
+}
+.player-control-icon:hover{
+    opacity: 1;
+}
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
