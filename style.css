@@ -266,7 +266,7 @@ a{
     align-items: center;
 }
 .progress-bar{
-    width: 70%;
+    width: 60%;
     appearance: none;
     background-color: transparent;
     cursor: pointer;
